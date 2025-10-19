@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(41, 42, 44);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 804px;
+    height: 700px;
+    object-position: center;
+    object-fit: cover;
+}
+
+.titulopagina {
+    font-weight: bold;
+    background-color: rgb(2, 139, 16);
+    text-align: center;
+    width: 800px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.foto {
+    background-color: rgb(2, 139, 16);
+    width: 600px;
+    height: 600px;
+    border-radius: 15px;
+    color: chartreuse;
+}
+
+.header {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 15px 5px 15px;
+    background-color: rgb(2, 139, 16);
+    border-radius: 10px 10px 0px 0px;
+    font-size: large;
+}
+
+.footer {
+    background-color: rgb(2, 139, 16);
+    padding: 5px 15px 5px 15px;
+    border-radius: 0px 0px 10px 10px;
+    font-size: large;
+    margin-top: -4px;
+}
+
+.numeropagina {
+    color: black
+}
+
+.tituloimagen {
+    border-left: 100px;
+    font-weight: bold;
+}
+
+.hastgs {
+    font-weight: bold;
+}
